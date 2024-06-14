@@ -1,21 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
+<di>
 <title>HalfTMLife</title>
-<link rel="icon" type="image/x-icon" href="logo.ico">
+<link rel="icon" type="image/x-icon" href="logo.png">
 <style>
-    body {
-  background: url("HalfLifePattern.png");
-  background-repeat: repeat;
+  body {
+background: url("HalfLifePattern.png");
+background-repeat: repeat;
 }
+@font-face { font-family: "Console"; src: url("Half-Life\ 1.ttf"); }
+@font-face { font-family: "HalfLife"; src: url('HalfLife.ttf'); }  
+.Logo {
+  font-family: "HalfLife";
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  letter-spacing: 10px;
+  line-height: 100px;
+}
+
+.cs {
+  width: 50%;
+}
+.cs:hover {
+  transform: scale(1.25);
+}
+
+.hl {
+  width: 50%;
+}
+.hl:hover {
+  transform: scale(1.25);
+}
+
+.quake {
+  width: 50%;
+}
+.quake:hover {
+  transform: scale(1.25);
+}
+.buttons {
+    background-color:#4c5844;
+    box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+    margin-top: 50pxđ;
+  }
 </style>
+
+<div class="Logo">
+<font color="white" size="10" face="HalfLife">HalfTMLife<a href="https://dadogedev.github.io/halftmlife/"><img src="logo.png" alt="hl1" style="width:50px;height:50px;"></a></font>
+</div>
+<div class="buttons">
 <center>
-<h1><font color="white" size="5">Welcome to HalfTMLife!</font></h1>
-<h1><font color="White" size="5">This is a site where you can play Half Life games for free without needing to download!</font></h1>
+<h1><font color="White" size="5" face="Console">Play Half Life games for free without needing to download!</font></h1>
+<h1><div class="cs"><a href="https://play-cs.com/en/servers"><img src="CounterStrikeSheets.png" alt="cs.16" style="width:350x;height:350px;"></a></div><div class="hl"><a href="https://dadogedev.github.io/halftmlifehlgames/"><img src="HalfTextMarkupLife.png" alt="hl1" style="width:350px;height:350px;"></a></div></h1>
 <h1><font color="white" size="5"></font></h1>
-<a href="https://play-cs.com/en/servers"><img src="CounterStrikeSheets.png" alt="cs.16" style="width:400px;height:400px;"></a> <a href="https://dadogedev.github.io/halftmlifehlgames/"><img src="HalfTextMarkupLife.png" alt="hl1" style="width:400px;height:400px;"></a>
-<h1><font color="white" size="5"></font></h1>
-<a href  ="https://dadogedev.github.io/halftmlifequake/"><img src="quake.png" alt="quake" style="width:400px;height:400px;"</a>
+<div class="quake"><a href  ="https://dadogedev.github.io/halftmlifequake/"><img src="quake.png" alt="quake" style="width:400px;height:400px;"</a></div>
 </center>
+</div>
 </head>
 </html>
